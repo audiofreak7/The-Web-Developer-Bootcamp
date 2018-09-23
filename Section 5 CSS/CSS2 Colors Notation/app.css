@@ -1,0 +1,12 @@
+/*hexidecimal*/
+h1 {
+	color: #FF8000;
+}
+/*RGB - 0 to 255*/
+li {
+	color: rgb(100, 50, 255);
+}
+/*RGBA - A = Alpha = transparency. Range of A 0 - 1*/
+h4 {
+	color: rgba(100,50,255, 0.5);
+}

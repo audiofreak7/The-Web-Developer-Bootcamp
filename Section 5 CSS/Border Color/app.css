@@ -1,0 +1,17 @@
+h1 {
+	color: #FF8000;
+	/*Border smust have color, width, and style.*/
+	/*Longhand version*/
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+}
+
+h4 {
+	/*Shorthand version*/
+	border: 2px dashed rgb(255,100,80);
+}
+body {
+	background: pink;
+}
+

@@ -1,0 +1,20 @@
+/*hexidecimal*/
+h1 {
+	color: #FF8000;
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+/*Change background color of the whole page (body).
+body {
+	background: pink;
+}*/
+
+/*set the background as an image*/
+body {
+	background: url(https://cdn.shopify.com/s/files/1/0742/6023/products/Cherry_wood_full_sheet_large.jpg?v=1440787856);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

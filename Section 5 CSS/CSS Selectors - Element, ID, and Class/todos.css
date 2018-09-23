@@ -1,0 +1,12 @@
+li {
+	border: 2px solid red;
+}
+
+#anyName {
+	background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+

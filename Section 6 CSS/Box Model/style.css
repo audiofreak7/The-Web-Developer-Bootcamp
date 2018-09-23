@@ -1,0 +1,24 @@
+p {
+
+	/*Content - Width and Height - can be expressed in px or % */
+	width: 50%;
+
+	/*Border*/
+	border: 2px solid blue;
+
+	/*Padding - inside the box*/
+	padding: 10px;
+	/*padding-left: 40px;*/
+
+	/*Margin - outside the box*/
+	/*margin: 100px*/
+	/*margin-top: 50px;*/
+	/*Below, top, right, bottom, left*/
+	/*margin: 20px 40px 50px 100px;*/
+	/*Use 'auto' to center the box. Both lines below accomplish the same thing.*/
+	/*margin: 0 auto 0 auto;*/
+	/*margin: 0 auto;*/
+	/*You can also use the above shortcut syntax to create equal margins on the top/bottom, and left/right*/
+	margin: 20px 50px; 
+
+}

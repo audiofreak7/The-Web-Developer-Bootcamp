@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+	.pink {
+		background: pink;
+		border: 1px solid purple;
+	}
+	.orange {
+		background: orange;
+		border: 1px solid purple;
+	}
+</style>
+
+</head>
+
+<body>
+	<!-- The four different grid sizes (lg md sm xs), and writing nested grids (orange on the html file). -->
+	<div class="container">
+		<div class="row">
+			<!-- Each div below is 3 columns wide on lg devices, 3 wide on md devices, 6 wide on sm devices, and 1 wide on xs devices. -->
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">
+				
+				<div class="row">
+					<div class="col-md-6 orange">1ST HALF</div>
+					<div class="col-md-6 orange">2ND HALF</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			
+			<div class="col-lg-3 col-md-3 col-sm-6 pink">
+				<div class="row">
+					<div class="col-md-2 orange">2</div>
+					<div class="col-md-2 orange">4</div>
+					<div class="col-md-2 orange">6</div>
+					<div class="col-md-2 orange">8</div>
+					<div class="col-md-2 orange">10</div>
+					<div class="col-md-2 orange">12</div>
+				</div>
+			</div>
+			<!-- "xs" delaults to col-xs-1, which is what we want. -->
+		</div>
+	</div>
+	Orange columns are nested inside another column. 
+
+</body>
+</html>

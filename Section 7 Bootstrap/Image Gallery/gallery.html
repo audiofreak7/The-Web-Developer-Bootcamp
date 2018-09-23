@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Note that the link to our custom css file comes after the Bootstrap CDN link. This makes our file take precedence. -->
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- The following button is for the mobile-width navbar menu "hamburger". -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+			</div>
+			<!-- The next line allows the Navbar menu items to collapse for mobile-width devices/browsers. -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Products</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Muffin Inquiries</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+			<p>A bunch of beautiful images from <a href="https://unsplash.com">https://unsplash.com</a> that I did not take</p>
+		</div>
+
+		<div class="row flex">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533900324105-5be762d65192?ixlib=rb-0.3.5&s=7dd2a2ea067cd49c098313b798521132&auto=format&fit=crop&w=2551&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533837040043-e02d4f142f2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ad949cd59f29ad159c1b03b59781503&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533853202301-4bf4ffbce802?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=80ccc065d7fb8836e49c8543c9bf6f41&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533892636137-4ea784c23a84?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=25dd4ce5d889a962be580046360d3ff6&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533844660179-14230aca3fb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=372ba556e9a48164bceeeb6c10dc7712&auto=format&fit=crop&w=2580&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533854927469-6c09e318e764?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4584dddb2e9bbc6e73c2b15f47dfebf0&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533843953717-d5d817ed871d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=21a3afe3f84390d696b34ce9d940dda2&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533838426735-bb3ef53915f8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ab38ba22bf8d4190041cb93265e619&auto=format&fit=crop&w=2550&q=80">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1533836683024-78f6568c4ce1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f585c56d6f2c1ee7ed2737b519f58f4&auto=format&fit=crop&w=2551&q=80">
+				</div>
+			</div>
+			<!-- snowy lake -->
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1523295616404-2b6c098f26dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dbd09b1969f9a8877fa65c5404044837&auto=format&fit=crop&w=2350&q=80">
+				</div>
+			</div>
+			<!-- plain -->
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1561ecb2592830316c279b62f1cb75e5&auto=format&fit=crop&w=2398&q=80">
+				</div>
+			</div>
+			<!-- field -->
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1523295276007-463f4df9ac87?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=334f463d4c9bd58616a5a3612ef3a2b7&auto=format&fit=crop&w=2379&q=80">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous"></script>
+	<!-- Bootstrap JavaScript CDN-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

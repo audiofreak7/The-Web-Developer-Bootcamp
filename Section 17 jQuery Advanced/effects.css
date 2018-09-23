@@ -1,0 +1,35 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+	float: left;
+	margin: 20px;
+}
+
+h4 {
+	width: 100px;
+	height: 100px;
+	background-color: darkorange;
+	float: left;
+	margin: 20px;
+	display: none;
+}
+
+#jerseyGuyPic {
+	display: none;
+	width: 20%;
+}
+
+#ponyPic {
+	display: none;
+	width: 20%;
+}
+
+#barneyPic {
+	width: 20%;
+}
+
+#plantPic {
+	display: none;
+	width: 20%;
+}

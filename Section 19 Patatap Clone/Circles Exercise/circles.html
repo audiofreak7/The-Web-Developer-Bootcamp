@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circles</title>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+	<!-- Load the Paper.js library -->
+	<script type="text/javascript" src="paper-full.min.js"></script>
+	<!-- Define inlined PaperScript associate it with myCanvas -->
+	<script type="text/paperscript" canvas="myCanvas">
+	for(var i = 0; i < 1000; i+= 100) {
+		for(var j = 0; j < 1000; j+= 100) {
+			var g = i / 5;
+			var b = j / 5;
+			// "rgb(r, g, b)"
+			var color = "rgb(255, " + g + ", " + b + ")";
+			console.log(color);
+			// new Path.Circle(new Point(i, j), 10).fillColor = 'rgb(255, 132, 132)';
+			new Path.Circle(new Point(i, j), 15).fillColor = color;
+		}
+	}
+	</script>
+</head>
+
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>

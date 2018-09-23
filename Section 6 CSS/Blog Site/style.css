@@ -1,0 +1,47 @@
+h4 { /*Date*/
+	color: #3498DB;
+	font-family: Source Sans Pro;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: 400;
+}
+
+h1 { /*Blog Title*/
+	font-family: Source Sans Pro;
+	text-transform: capitalize;
+	font-size: 2.0rem;
+	color: #2C3E50;
+}
+
+p { /*Blog Entry*/
+	font-family: Source Sans Pro;
+	/*font-size: 14px;*/
+
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
+.post {
+	margin-bottom: 30px;
+}
+
+.firstParagraph {
+	border-left: #BDC3C7 solid 3px;
+	padding-left: 8px;
+}
+
+.pageSetup {
+	max-width: 600px;
+	width: 80%;
+	border: solid 20px #BDC3C7;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}

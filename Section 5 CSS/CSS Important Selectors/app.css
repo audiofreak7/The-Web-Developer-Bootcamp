@@ -1,0 +1,43 @@
+/*Element*/
+li {
+
+}
+/*Class*/
+.hello {
+
+}
+
+/*ID*/
+#name {
+
+}
+
+/*Star - applies to all elements.*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector - select items in nested selectors*/
+/*Below, hyperlinks inside of a line item are colored red.*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selector - select elements that occur after a certain element*/
+/*Below, unordered lists that occur after and h4 will have a green border*/
+h4 + ul {
+	border: 4px solid green;
+}
+
+/*Attribute Selector - a way to select elements based off of any attribute.*/
+a[href="http://www.google.com"] {
+	background: lightyellow;
+}
+
+/*Nth of Type allows you select the *Nth* element. */
+/*Below, the third unordered list will have a background color of purple.*/
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+

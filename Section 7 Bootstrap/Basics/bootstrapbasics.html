@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<div class="container"> <!-- This line provide page borders and edging, esp in the jumbotron and forms sections below. -->
+		<h1>Bootstrap Basics</h1>
+		<h2>Buttons</h2>
+		<p> <!-- Row 1 -->
+			Row 1
+			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-secondary">Secondary</button>
+			<button type="button" class="btn btn-success">Success</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-info">Info</button>
+			<button type="button" class="btn btn-light">Light</button>
+			<button type="button" class="btn btn-dark">Dark</button>
+			<button type="button" class="btn btn-link">Link</button>
+		</p>
+
+		<p>
+			Row 2
+			<button class="btn btn-primary">Click Me!</button>
+			<button class="btn btn-primary btn-xs">Click Me... Click Me!</button>
+			<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Get Bootstrap</a>
+		</p>
+
+		<p>
+			Row 3
+			<button class="btn btn-primary btn-xs ">xs Xtra Small Button</button>
+			<button class="btn btn-primary btn-xs active">Active Button!</button>
+			<button class="btn btn-primary btn-xs" disabled="disabled">Disabled Button!</button>
+		</p>
+
+		<p> 
+			Row 4
+			<a class="btn btn-primary" href="#" role="button">Link</a>
+			<button class="btn btn-primary" type="submit">Button</button>
+			<input class="btn btn-primary" type="button" value="Input">
+			<input class="btn btn-primary" type="submit" value="Submit">
+			<input class="btn btn-primary" type="reset" value="Reset">
+		</p>
+
+		<p> 
+			Row 5
+			<button type="button" class="btn btn-outline-primary">Primary</button>
+			<button type="button" class="btn btn-outline-secondary">Secondary</button>
+			<button type="button" class="btn btn-outline-success">Success</button>
+			<button type="button" class="btn btn-outline-danger">Danger</button>
+			<button type="button" class="btn btn-outline-warning">Warning</button>
+			<button type="button" class="btn btn-outline-info">Info</button>
+			<button type="button" class="btn btn-outline-light">Light</button>
+			<button type="button" class="btn btn-outline-dark">Dark</button>
+		</p>
+
+		<p> 
+			Row 6
+			<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+		</p>
+
+		<p> 
+			Row 7
+			<button type="button" class="btn btn-primary btn-lg">Large Primary button</button>
+			<button type="button" class="btn btn-secondary btn-lg">Large Secondary button</button>
+			<button type="button" class="btn btn-primary btn-sm">Small Primary button</button>
+			<button type="button" class="btn btn-secondary btn-sm">Small Secondary button</button>
+		</p>
+
+		<h2>Jumbotron</h2>
+
+		<div class="jumbotron">
+			<h1>Hello, Arthur.</h1>
+			<p>I think your mother smells of suffocated gas and bovine intestines something fierce. Did she eat any of the tainted cheese in the laboratory?</p>
+			<button type="button" class="btn btn-success">Socks</button>
+		</div>
+
+		<h2>Forms</h2>
+
+		<form>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			</div>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" id="exampleCheck1">
+				<label class="form-check-label" for="exampleCheck1">Check me out</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+		<hr>
+
+		<!-- Inline Form -->
+		<form class="form-inline">
+			<div class="form-group mb-2">
+				<label for="staticEmail2" class="sr-only">Email</label>
+				<input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+			</div>
+			<div class="form-group mx-sm-3 mb-2">
+				<label for="inputPassword2" class="sr-only">Password</label>
+				<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+			</div>
+			<button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+		</form>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
