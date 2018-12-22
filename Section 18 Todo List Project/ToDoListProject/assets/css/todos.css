@@ -1,6 +1,7 @@
 body {
 	font-family: Roboto;
 	background: #36D1DC;  /* fallback for old browsers */
+	/* I found the following gradient code at uigradients.com */
 	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -28,6 +29,7 @@ li {
 	color: #666;
 }
 
+/* make every 2nd (i.e. every other) line item hav e a light gray background */
 li:nth-child(2n) {
 	background: #f7f7f7;
 }
@@ -39,15 +41,15 @@ span {
 	margin-right: 20px;
 	text-align: center;
 	color: white;
-	width: 0px;
+	width: 0px; /* This makes the trash can invisible. Hovering over it gives it a width of 40px */
 	display: inline-block;
-	transition: 0.2s linear;
-	opacity: 0;
+	transition: 0.2s linear; 
+	opacity: 0; /* makes the trash can icon invisible by default*/
 }
 
 li:hover span {
 	width: 40px;
-	opacity: 1.0;
+	opacity: 1.0; /* shows the trash can icon when when hovering over an li */
 }
 
 input {
@@ -55,11 +57,12 @@ input {
 	background-color: #f7f7f7;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
-	box-sizing: border-box;
+	box-sizing: border-box; /* The width and height properties include the padding and border, but not margin */
 	color: #2980b9;;
-	border: 3px solid rgba(0,0,0,0);
+	border: 3px solid rgba(0,0,0,0); /* adds an invisible border which evens out the input section */
 }
 
+/* the following code is applied when the user clicks in the input */
 input:focus {
 	background: #fff;
 	border: 3px solid #2980b9;

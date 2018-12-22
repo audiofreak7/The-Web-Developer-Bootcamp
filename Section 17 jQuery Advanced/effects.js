@@ -20,7 +20,7 @@ $("#fadeToggleButton").on("click", function() {
 });
 
 $("#slideDownPony").on("click", function() {
-	$("#ponyPic").slideDown();
+	$("#ponyPic").slideDown(2000);
 });
 
 
