@@ -2,10 +2,12 @@ $("h1").click(function() {
 	alert("h1 clicked!");
 });
 
-// $("button").click(function() {
-// 	alert("button clicked!");
-// });
+// Add a click-listener to all buttons using one line of code.
+$("button").click(function() {
+	alert("button clicked!");
+});
 
+// using 'this' in jQuery
 $("button").click(function() {
 	$(this).css("background", "pink");
 
@@ -18,4 +20,4 @@ $("input").keypress(function(event) {
 		alert("You hit ENTER!!");
 	}
 	console.log(event);
-})
+});

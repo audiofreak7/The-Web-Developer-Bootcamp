@@ -1,9 +1,11 @@
 
 //Getting
-var h1Text = $("h1").text();
-var liText = $("li").text();
 
-var h1HTML = $("h1").html();
+var theH1 = $("h1"); // "<h1>Common <strong>jQuery</strong> Methods</h1>""
+var h1Text = $("h1").text(); // "Common jQuery Methods"
+var h1HTML = $("h1").html(); //"Common <strong>jQuery</strong> Methods"
+
+var liText = $("li").text();
 var liHTML = $("l1").html();
 
 var imgURL = $("img").attr("src");
@@ -21,6 +23,7 @@ $("ul").html("<li>I hacked your LIs!</li><li>In your Arthur Treachin' FACE!</li>
 
 $("img").attr("width", "200px");
 
+// change many attributes at once like this!
 $("img").attr({
 	title: "Standing Pine Marten",
 	alt: "Picture of a standing Pine Marten",
@@ -31,7 +34,7 @@ $("input").val("Marty McFly"); // puts this value in the input box
 $("select").val("Pine Marten"); // selects Pine Marten as the default selection in the dropdown.
 
 
-//Adding/Removing Methods
+//Adding/Removing Classess
 $("h1").addClass("correct");
 $("li").addClass("wrong");
 

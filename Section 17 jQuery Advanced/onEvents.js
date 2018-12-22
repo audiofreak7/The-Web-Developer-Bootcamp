@@ -7,7 +7,7 @@ $("h1").on("click", function() {
 
 $("input").on("keypress", function() {
 	console.log("key pressed.");
-})
+});
 
 // Normally you would use the css file to accomplish the following tasks.
 // Here we are demonstrating the differnt events that can be selected using .on()

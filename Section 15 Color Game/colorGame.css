@@ -24,7 +24,7 @@ button {
 	font-weight: 700;
 	color: steelblue;
 	letter-spacing: 1px;
-	font-size: inherit; // inherit font-size relative to the parent font-size 	
+	font-size: inherit;  /* inherit font-size relative to the parent font-size 	 */
 }
 
 button:hover {
