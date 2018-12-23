@@ -29,7 +29,7 @@ li {
 	color: #666;
 }
 
-/* make every 2nd (i.e. every other) line item hav e a light gray background */
+/* make every 2nd (i.e. every other) line item hav e a light gray background. */
 li:nth-child(2n) {
 	background: #f7f7f7;
 }
